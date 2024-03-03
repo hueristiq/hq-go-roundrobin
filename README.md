@@ -24,7 +24,7 @@ A [Go(Golang)](http://golang.org/) high-quality, concurrency-safe implementation
 
 ## Installation
 
-To install `hqgoroundrobin`, use the go get command:
+To install `hqgoroundrobin`, use:
 
 ```bash
 go get -v -u github.com/hueristiq/hqgoroundrobin
@@ -82,7 +82,7 @@ func main() {
 
 ## Licensing
 
-This utility is distributed under the [MIT license](https://github.com/hueristiq/hqgoroundrobin/blob/master/LICENSE).
+This package is distributed under the [MIT license](https://github.com/hueristiq/hqgoroundrobin/blob/master/LICENSE).
 
 ## Credits
 
@@ -96,4 +96,4 @@ Thanks to the amazing [contributors](https://github.com/hueristiq/hqgoroundrobin
 
 Thanks to similar open source projects - check them out, may fit in your needs
 
-[hlts2/round-robin](https://github.com/hlts2/round-robin) ◇ [projectdiscovery/roundrobin](https://github.com/projectdiscovery/roundrobin)
+[thegeekyasian/round-robin-go](https://github.com/thegeekyasian/round-robin-go) ◇ [hlts2/round-robin](https://github.com/hlts2/round-robin) ◇ [projectdiscovery/roundrobin](https://github.com/projectdiscovery/roundrobin)
