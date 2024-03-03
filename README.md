@@ -2,7 +2,7 @@
 
 [![go report card](https://goreportcard.com/badge/github.com/hueristiq/hqgoroundrobin)](https://goreportcard.com/report/github.com/hueristiq/hqgoroundrobin) [![open issues](https://img.shields.io/github/issues-raw/hueristiq/hqgoroundrobin.svg?style=flat&color=1E90FF)](https://github.com/hueristiq/hqgoroundrobin/issues?q=is:issue+is:open) [![closed issues](https://img.shields.io/github/issues-closed-raw/hueristiq/hqgoroundrobin.svg?style=flat&color=1E90FF)](https://github.com/hueristiq/hqgoroundrobin/issues?q=is:issue+is:closed) [![license](https://img.shields.io/badge/license-MIT-gray.svg?color=1E90FF)](https://github.com/hueristiq/hqgoroundrobin/blob/master/LICENSE) ![maintenance](https://img.shields.io/badge/maintained%3F-yes-1E90FF.svg) [![contribution](https://img.shields.io/badge/contributions-welcome-1E90FF.svg)](https://github.com/hueristiq/hqgoroundrobin/blob/master/CONTRIBUTING.md)
 
-A [Go(Golang)](http://golang.org/) high-quality, thread-safe implementation of [Round Robin(RR)](https://en.wikipedia.org/wiki/Round-robin_scheduling) algorithm for managing and cycling through a collection of items. This package is designed to be easy to integrate and use for load balancing, task distribution, and other scenarios where items need to be processed or served in a cyclic order.
+A [Go(Golang)](http://golang.org/) high-quality, concurrency-safe implementation of [Round Robin(RR)](https://en.wikipedia.org/wiki/Round-robin_scheduling) algorithm for managing and cycling through a collection of items. This package is designed to be easy to integrate and use for load balancing, task distribution, and other scenarios where items need to be processed or served in a cyclic order.
 
 ## Resources
 
