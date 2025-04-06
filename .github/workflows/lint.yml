@@ -1,4 +1,4 @@
-name: 💅 Lint Test
+name: 💅 Lint
 
 on:
     push:
@@ -17,27 +17,27 @@ on:
     
 permissions:
     contents: read
-  
+
 jobs:
     lint:
-        name: Lint Test
+        name: Lint
         runs-on: ubuntu-latest
         steps:
             -
                 name: Set up Go
                 uses: actions/setup-go@v5
                 with:
-                    go-version:  '>=1.21'
+                    go-version:  '>=1.24'
                     cache: false
             -
-                name: Checkout the repository
+                name: Code Checkout
                 uses: actions/checkout@v4
                 with:
                     fetch-depth: 0
             -
-                name: Run golangci-lint
-                uses: golangci/golangci-lint-action@v4
+                name: golangci-lint
+                uses: golangci/golangci-lint-action@v7
                 with:
-                    version: v1.54.2
+                    version: v2.0.2
                     args: --timeout 5m
                     working-directory: .
