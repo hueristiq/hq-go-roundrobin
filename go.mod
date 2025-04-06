@@ -1,3 +1,3 @@
-module github.com/hueristiq/hqgoroundrobin
+module github.com/hueristiq/hq-go-roundrobin
 
-go 1.21
+go 1.24.2

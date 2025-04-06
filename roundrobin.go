@@ -1,4 +1,4 @@
-package hqgoroundrobin
+package roundrobin
 
 import (
 	"errors"
