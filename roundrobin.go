@@ -1,10 +1,9 @@
 package roundrobin
 
 import (
+	"errors"
 	"sync"
 	"sync/atomic"
-
-	hqgoerrors "github.com/hueristiq/hq-go-errors"
 )
 
 // RoundRobin manages a thread-safe collection of items for round-robin selection.
@@ -122,7 +121,7 @@ func New(items ...string) (rr *RoundRobin, err error) {
 //   - err (error): An error if no items are provided, otherwise nil.
 func NewWithOptions(options Options, items ...string) (rr *RoundRobin, err error) {
 	if len(items) == 0 {
-		err = hqgoerrors.New("no items")
+		err = errors.New("no items")
 
 		return
 	}
