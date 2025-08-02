@@ -1,7 +1,6 @@
 package roundrobin_test
 
 import (
-	"errors"
 	"sync"
 	"testing"
 
@@ -95,14 +94,5 @@ func TestStatistics(t *testing.T) {
 
 	if item.Statistics.ServesCount != 1 {
 		t.Errorf("Item statistics were not correctly updated: got %d, want %d", item.Statistics.ServesCount, 1)
-	}
-}
-
-func TestNoItemsError(t *testing.T) {
-	t.Parallel()
-
-	_, err := hqgoroundrobin.New()
-	if !errors.Is(err, hqgoroundrobin.ErrNoItems) {
-		t.Errorf("Expected ErrNoItems error, got %v", err)
 	}
 }

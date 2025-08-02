@@ -6,18 +6,18 @@
 
 ## Resources
 
-* [Features](#features)
-* [Installation](#installation)
-* [Usage](#usage)
-* [Contributing](#contributing)
-* [Licensing](#licensing)
+- [Features](#features)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Contributing](#contributing)
+- [Licensing](#licensing)
 
 ## Features
 
-* Ensures safe concurrent access and modification of the round-robin queue.
-* Prevents duplicate items in the queue, maintaining the integrity of the rotation.
-* Customizable configuration to define how often the rotation should move to the next item.
-* Provides a straightforward API for adding items and retrieving the next item in the round-robin sequence.
+- Ensures safe concurrent access and modification of the round-robin queue.
+- Prevents duplicate items in the queue, maintaining the integrity of the rotation.
+- Customizable configuration to define how often the rotation should move to the next item.
+- Provides a straightforward API for adding items and retrieving the next item in the round-robin sequence.
 
 ## Installation
 
